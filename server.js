@@ -58,7 +58,7 @@ app.get('/api/request-count', (req, res) => {
 
 
 // List of API endpoints to check
-/*
+
 const apiEndpoints = [
   // Chatbot
   { name: "Chatbot A", url: "https://coderx-api.onrender.com/v1/chatbot/coderx/chatbot?query=test" },
@@ -144,7 +144,6 @@ app.get('/api/status', (req, res) => {
   });
 });
 
-*/
 
 
 // Catch-all route for any other requests (fallback to your HTML file)
