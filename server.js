@@ -68,7 +68,6 @@ const apiEndpoints = [
   // Downloads
   { name: "YouTube Search", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/ytsearch?message=hello" },
   { name: "YouTube MP3", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/ytmp3?url=https://youtu.be/dQw4w9WgXcQ" },
-  { name: "iOS MP3", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/iosmp3?url=https://youtu.be/dQw4w9WgXcQ" },
   { name: "YouTube MP4", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/ytmp4?url=https://youtu.be/dQw4w9WgXcQ" },
   { name: "Facebook Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/facebook?url=https://www.facebook.com/share/v/15fNp5gHK4/" },
   { name: "Instagram Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/instagram?url=https://www.instagram.com/reel/DD6q97IuzxD/" },
@@ -85,7 +84,6 @@ const apiEndpoints = [
   { name: "Couple PP", url: "https://coderx-api.onrender.com/v1/tools/coderx/couplepp" },
   { name: "Meme Generator", url: "https://coderx-api.onrender.com/v1/tools/coderx/meme" },
   { name: "Emoji Mix", url: "https://coderx-api.onrender.com/v1/tools/coderx/emojimix?emoji=😎&emoji2=😂" },
-  { name: "Google Image", url: "https://coderx-api.onrender.com/v1/tools/coderx/gimage?query=car" },
   { name: "NSFW Check", url: "https://coderx-api.onrender.com/v1/tools/coderx/nsfwcheck?url=https://i.pinimg.com/474x/0a/c6/6f/0ac66f6cf7a4f74f9e435037dea7492e.jpg" },
 
   // Fun
@@ -100,7 +98,6 @@ const apiEndpoints = [
   { name: "TikTok Stalker", url: "https://coderx-api.onrender.com/v1/stalk/coderx/tiktokstalk?q=davido" },
   { name: "FF Stalker", url: "https://coderx-api.onrender.com/v1/stalk/coderx/ffstalk?id=8533270051" },
   { name: "GitHub Stalker", url: "https://coderx-api.onrender.com/v1/stalk/coderx/github?name=coderxsa" },
-  { name: "Instagram Stalker", url: "https://coderx-api.onrender.com/v1/stalk/coderx/instagram?username=coderx.sa" }
 ];
 
 let apiStatus = {};
