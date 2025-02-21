@@ -75,7 +75,7 @@ const apiEndpoints = [
   { name: "TikTok Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/tiktok?url=https://vm.tiktok.com/ZMkMuEmmd" },
   { name: "Twitter Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/twitter?url=https://x.com/elonmusk/status/1870901510319833540" },
   { name: "Spotify Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/spotifydl?url=https://open.spotify.com/track/285pBltuF7vW8TeWk8hdRR" },
-  { name: "Movies Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/movies?query=deadpool" },
+  { name: "Movies Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/movies?q=deadpool" },
 
   // Tools
   { name: "Lyrics", url: "https://coderx-api.onrender.com/v1/tools/coderx/lyrics?song=never+gonna+give+you+up" },
