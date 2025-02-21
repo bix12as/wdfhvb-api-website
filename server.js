@@ -62,19 +62,14 @@ app.get('/api/request-count', (req, res) => {
 const apiEndpoints = [
   // Chatbot
   { name: "Chatbot A", url: "https://coderx-api.onrender.com/v1/chatbot/coderx/chatbot?query=test" },
-  { name: "Chatbot B", url: "https://coderx-api.onrender.com/v1/chatbot/coderx/chatbotb?query=test" },
   { name: "Blackbox", url: "https://coderx-api.onrender.com/v1/chatbot/coderx/blackbox?q=test query" },
-  { name: "Blackbox B", url: "https://coderx-api.onrender.com/v1/chatbot/coderx/blackboxb?q=test query" },
   { name: "iLama 3", url: "https://coderx-api.onrender.com/v1/chatbot/coderx/ilama3?text=Sample text" },
-  { name: "iLama 3B", url: "https://coderx-api.onrender.com/v1/chatbot/coderx/ilama3b?text=Sample text" },
 
   // Downloads
   { name: "YouTube Search", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/ytsearch?message=hello" },
   { name: "YouTube MP3", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/ytmp3?url=https://youtu.be/dQw4w9WgXcQ" },
-  { name: "YouTube MP3 B", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/ytmp3b?url=https://youtu.be/dQw4w9WgXcQ" },
   { name: "iOS MP3", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/iosmp3?url=https://youtu.be/dQw4w9WgXcQ" },
   { name: "YouTube MP4", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/ytmp4?url=https://youtu.be/dQw4w9WgXcQ" },
-  { name: "YouTube MP4 B", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/ytmp4b?url=https://youtu.be/dQw4w9WgXcQ" },
   { name: "Facebook Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/facebook?url=https://www.facebook.com/share/v/15fNp5gHK4/" },
   { name: "Instagram Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/instagram?url=https://www.instagram.com/reel/DD6q97IuzxD/" },
   { name: "TikTok Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/tiktok?url=https://vm.tiktok.com/ZMkMuEmmd" },
@@ -86,7 +81,7 @@ const apiEndpoints = [
   { name: "Lyrics", url: "https://coderx-api.onrender.com/v1/tools/coderx/lyrics?song=never+gonna+give+you+up" },
   { name: "Bible Reference", url: "https://coderx-api.onrender.com/v1/tools/coderx/bible?reference=john+3:16" },
   { name: "IMDb", url: "https://coderx-api.onrender.com/v1/tools/coderx/imdb?q=iron+man" },
-  { name: "Voice AI", url: "https://coderx-api.onrender.com/v1/tools/coderx/voiceai?text=iron man&model=optimus_prime" },
+  { name: "Voice AI", url: "https://coderx-api.onrender.com/v1/tools/coderx/voiceai?text=iron+man&model=optimus_prime" },
   { name: "Couple PP", url: "https://coderx-api.onrender.com/v1/tools/coderx/couplepp" },
   { name: "Meme Generator", url: "https://coderx-api.onrender.com/v1/tools/coderx/meme" },
   { name: "Emoji Mix", url: "https://coderx-api.onrender.com/v1/tools/coderx/emojimix?emoji=😎&emoji2=😂" },
@@ -103,7 +98,6 @@ const apiEndpoints = [
 
   // Stalk
   { name: "TikTok Stalker", url: "https://coderx-api.onrender.com/v1/stalk/coderx/tiktokstalk?q=davido" },
-  { name: "TikTok Stalker B", url: "https://coderx-api.onrender.com/v1/stalk/coderx/tiktokstalkb?username=davido" },
   { name: "FF Stalker", url: "https://coderx-api.onrender.com/v1/stalk/coderx/ffstalk?id=8533270051" },
   { name: "GitHub Stalker", url: "https://coderx-api.onrender.com/v1/stalk/coderx/github?name=coderxsa" },
   { name: "Instagram Stalker", url: "https://coderx-api.onrender.com/v1/stalk/coderx/instagram?username=coderx.sa" }
