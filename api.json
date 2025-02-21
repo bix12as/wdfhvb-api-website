@@ -1,0 +1,54 @@
+{
+  "1":"AI IMAGES",
+  "api_flux": "https://api.siputzx.my.id/api/ai/flux",
+  "api_dreamshaper": "https://api.siputzx.my.id/api/ai/dreamshaper",
+  "api_stabilityai": "https://api.siputzx.my.id/api/ai/stabilityai",
+  "api_stablediffusion": "https://api.siputzx.my.id/api/ai/stable-diffusion",
+
+  "2":"CANVAS",
+  "api_ship": "https://api.popcat.xyz/ship",
+  "api_shipv3": "https://api.siputzx.my.id/api/canvas/ship",
+  "api_welcome": "https://api.siputzx.my.id/api/canvas/welcomev4",
+  "api_welcomev1": "https://api.siputzx.my.id/api/canvas/welcomev1",
+  "api_goodbyev1": "https://api.siputzx.my.id/api/canvas/goodbyev1",
+  "api_profile": "https://api.siputzx.my.id/api/canvas/profile",
+
+  "3":"CHAT BOT",
+  "api_chatbot": "https://apis.davidcyriltech.my.id/ai/chatbot",
+  "api_blackbox": "https://apis.davidcyriltech.my.id/blackbox",
+  "api_ilama3": "https://apis.davidcyriltech.my.id/ai/llama3",
+
+  "4":"DOWNLOADS",
+  "api_ytsearch": "https://api.agatz.xyz/api/ytsearch",
+  "api_ytmp3": "https://apis.davidcyriltech.my.id/download/ytmp3",
+  "api_ytmp4": "https://apis.davidcyriltech.my.id/download/ytmp4",
+  "api_facebook2": "https://apis.davidcyriltech.my.id/facebook2",
+  "api_instagram": "https://apis.davidcyriltech.my.id/instagram",
+  "api_tiktok": "https://apis.davidcyriltech.my.id/download/tiktok",
+  "api_twitter": "https://apis.davidcyriltech.my.id/twitter",
+  "api_spotifydl": "https://apis.davidcyriltech.my.id/spotifydl",
+
+  "5":"FUN",
+  "api_truth": "https://apis.davidcyriltech.my.id/truth",
+  "api_dare": "https://apis.davidcyriltech.my.id/dare",
+  "api_pickupline": "https://api.popcat.xyz/pickuplines",
+  "api_fact": "https://api.popcat.xyz/fact",
+  "api_joke": "https://api.popcat.xyz/joke",
+  "api_wyr": "https://api.popcat.xyz/wyr",
+
+  "6":"STALK",
+  "api_tiktokstalk": "https://apis.davidcyriltech.my.id/tiktokStalk",
+  "api_ffstalk": "https://apis.davidcyriltech.my.id/ffstalk",
+  "api_github": "https://api.agatz.xyz/api/ghtstalk",
+
+  "7":"TOOLS",
+  "api_lyrics": "https://api.popcat.xyz/lyrics",
+  "api_bible": "https://apis.davidcyriltech.my.id/bible",
+  "api_imdb": "https://api.popcat.xyz/imdb",
+  "api_voiceai": "https://apis.davidcyriltech.my.id/voiceai",
+  "api_couplepp": "https://apis.davidcyriltech.my.id/couplepp",
+  "api_meme": "https://meme-api.com/gimme/wholesomememes",
+  "api_ssweb": "https://api.nyxs.pw/tools/ssweb",
+  "api_nsfwchecker": "https://api.nyxs.pw/tools/nfswchecker"
+
+}
