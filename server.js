@@ -60,10 +60,25 @@ app.get('/api/request-count', (req, res) => {
 // List of API endpoints to check
 
 const apiEndpoints = [
+  // Ai Image
+  { name: "Flux", url: "https://coderx-api.onrender.com/v1/aiimage/coderx/flux?prompt=test" },
+  { name: "Dreamshaper", url: "https://coderx-api.onrender.com/v1/aiimage/coderx/dreamshaper?prompt=test" },
+  { name: "Stabilityai", url: "https://coderx-api.onrender.com/v1/aiimage/coderx/stabilityai?prompt=test" }, 
+  { name: "Stable Diffusion", url: "https://coderx-api.onrender.com/v1/aiimage/coderx/stablediffusion?prompt=test" }, 
+
+  // Canvas
+  { name: "ship", url: "https://coderx-api.onrender.com/v1/canvas/coderx/ship?user1=https://i.ibb.co.com/Yc4MVdV/images.jpg&user2=https://i.ibb.co.com/KKYxYQr/download.jpg" },
+  { name: "shipv2", url: "https://coderx-api.onrender.com/v1/canvas/coderx/shipv2?avatar1=https://i.ibb.co.com/Yc4MVdV/images.jpg&avatar2=https://i.ibb.co.com/KKYxYQr/download.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg&heart=https://i.ibb.co/qY2QvNMr/Adobe-Express-file.png&persen=100" },
+  { name: "shipv3", url: "https://coderx-api.onrender.com/v1/canvas/coderx/shipv3?avatar1=https://i.ibb.co.com/Yc4MVdV/images.jpg&avatar2=https://i.ibb.co.com/KKYxYQr/download.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg&heart=https://i.ibb.co/qY2QvNMr/Adobe-Express-file.png&persen=100" },
+  { name: "Welcome", url: "https://coderx-api.onrender.com/v1/canvas/coderx/welcome?avatar=https://i.ibb.co/1s8T3sY/48f7ce63c7aa.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg&description=Welcome%20friend" },
+  { name: "Welcome v2", url: "https://coderx-api.onrender.com/v1/canvas/coderx/welcomev2?username=John&guildName=Anime%20Club&memberCount=150&guildIcon=https://i.ibb.co/G5mJZxs/rin.jpg&avatar=https://i.ibb.co/1s8T3sY/48f7ce63c7aa.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg" },
+  { name: "Good Bye", url: "https://coderx-api.onrender.com/v1/canvas/coderx/goodbye?username=John&guildName=Anime%20Club&memberCount=150&guildIcon=https://i.ibb.co/G5mJZxs/rin.jpg&avatar=https://i.ibb.co/1s8T3sY/48f7ce63c7aa.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg" },
+  { name: "Profile", url: "https://coderx-api.onrender.com/v1/canvas/coderx/profile?backgroundURL=https://i.ibb.co.com/2jMjYXK/IMG-20250103-WA0469.jpg&avatarURL=https://avatars.githubusercontent.com/u/159487561?v=4&rankName=epik&rankId=0&requireExp=0&level=0&name=CODERX&exp=100" },
+  
   // Chatbot
   { name: "Chatbot A", url: "https://coderx-api.onrender.com/v1/chatbot/coderx/chatbot?query=test" },
-  { name: "Blackbox", url: "https://coderx-api.onrender.com/v1/chatbot/coderx/blackbox?q=test query" },
-  { name: "iLama 3", url: "https://coderx-api.onrender.com/v1/chatbot/coderx/ilama3?text=Sample text" },
+  { name: "Blackbox", url: "https://coderx-api.onrender.com/v1/chatbot/coderx/blackbox?q=test" },
+  { name: "iLama 3", url: "https://coderx-api.onrender.com/v1/chatbot/coderx/ilama3?text=test" },
 
   // Downloads
   { name: "YouTube Search", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/ytsearch?message=hello" },
