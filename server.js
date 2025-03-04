@@ -68,6 +68,7 @@ const apiEndpoints = [
   // Downloads
   { name: "YouTube Search", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/ytsearch?message=hello" },
   { name: "YouTube MP3", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/ytmp3?url=https://youtu.be/dQw4w9WgXcQ" },
+  { name: "YouTube MP3v2", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/ytmp3v2?query=hello" },
   { name: "YouTube MP4", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/ytmp4?url=https://youtu.be/dQw4w9WgXcQ" },
   { name: "Facebook Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/facebook?url=https://www.facebook.com/share/v/15fNp5gHK4/" },
   { name: "Instagram Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/instagram?url=https://www.instagram.com/reel/DD6q97IuzxD/" },
