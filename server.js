@@ -101,6 +101,7 @@ const apiEndpoints = [
   { name: "Meme Generator", url: "https://coderx-api.onrender.com/v1/tools/coderx/meme" },
   { name: "Emoji Mix", url: "https://coderx-api.onrender.com/v1/tools/coderx/emojimix?emoji=😎&emoji2=😂" },
   { name: "NSFW Check", url: "https://coderx-api.onrender.com/v1/tools/coderx/nsfwcheck?url=https://i.pinimg.com/474x/0a/c6/6f/0ac66f6cf7a4f74f9e435037dea7492e.jpg" },
+  { name: "Google Image", url: "https://coderx-api.onrender.com/v1/tools/coderx/gimage?query=car" },
 
   // Fun
   { name: "Truth", url: "https://coderx-api.onrender.com/v1/fun/coderx/truth" },
