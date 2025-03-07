@@ -50,6 +50,7 @@
   "api_couplepp": "https://apis.davidcyriltech.my.id/couplepp",
   "api_meme": "https://meme-api.com/gimme/wholesomememes",
   "api_ssweb": "https://api.nyxs.pw/tools/ssweb",
-  "api_nsfwchecker": "https://api.nyxs.pw/tools/nfswchecker"
+  "api_nsfwchecker": "https://api.nyxs.pw/tools/nfswchecker",
+  "api_gimage": "https://api.siputzx.my.id/api/images"
 
 }
