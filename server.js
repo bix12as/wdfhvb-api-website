@@ -13,7 +13,7 @@ const v1tools = require('./routes/v1/tools');
 
 // Import routes (v2)
 const v2data = require('./routes/v2/data');
-
+const v2dragonball = require('./routes/v2/dragonball');
 
 const app = express();
 const PORT = 3000;
@@ -49,6 +49,7 @@ app.use('/v1/tools', v1tools);
 
 // Use versioned routes (v2)
 app.use('/v2/data', v2data);
+app.use('/v2/dragonball', v2dragonball);
 
 // Endpoint to get the API request count
 app.get('/api/request-count', (req, res) => {
@@ -115,6 +116,12 @@ const apiEndpoints = [
   { name: "TikTok Stalker", url: "https://coderx-api.onrender.com/v1/stalk/coderx/tiktokstalk?q=davido" },
   { name: "FF Stalker", url: "https://coderx-api.onrender.com/v1/stalk/coderx/ffstalk?id=8533270051" },
   { name: "GitHub Stalker", url: "https://coderx-api.onrender.com/v1/stalk/coderx/github?name=coderxsa" },
+
+
+  // v2
+  // dragonball
+  { name: "DragonBall", url: "https://coderx-api.onrender.com/v2/dragonball/coderx/dragonball" },
+  { name: "Dragonball Search", url: "https://coderx-api.onrender.com/v2/dragonball/coderx/dragonball/search?name=Piccolo" },
 ];
 
 let apiStatus = {};
