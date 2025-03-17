@@ -122,6 +122,8 @@ const apiEndpoints = [
   // dragonball
   { name: "DragonBall", url: "https://coderx-api.onrender.com/v2/dragonball/coderx/dragonball" },
   { name: "Dragonball Search", url: "https://coderx-api.onrender.com/v2/dragonball/coderx/dragonball/search?name=Piccolo" },
+  // shoob
+  { name: "Shoob", url: "https://coderx-api.onrender.com/v2/data/coderx/shoob" }
 ];
 
 let apiStatus = {};
