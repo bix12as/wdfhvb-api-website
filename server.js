@@ -14,6 +14,7 @@ const v1tools = require('./routes/v1/tools');
 // Import routes (v2)
 const v2data = require('./routes/v2/data');
 const v2dragonball = require('./routes/v2/dragonball');
+const v2onepice = require('./routes/v2/onepice');
 
 const app = express();
 const PORT = 3000;
@@ -50,6 +51,7 @@ app.use('/v1/tools', v1tools);
 // Use versioned routes (v2)
 app.use('/v2/data', v2data);
 app.use('/v2/dragonball', v2dragonball);
+app.use('/v2/onepice', v2onepice);
 
 // Endpoint to get the API request count
 app.get('/api/request-count', (req, res) => {
@@ -122,7 +124,8 @@ const apiEndpoints = [
   // dragonball
   { name: "DragonBall", url: "https://coderx-api.onrender.com/v2/dragonball/coderx/dragonball" },
   { name: "Dragonball Search", url: "https://coderx-api.onrender.com/v2/dragonball/coderx/dragonball/search?name=Piccolo" },
-  { name: "One pice", url: "https://coderx-api.onrender.com/v2/data/coderx/one-pice" }
+  { name: "One pice", url: "https://coderx-api.onrender.com/v2/data/coderx/one-pice" },
+  { name: "One pice search", url: "https://coderx-api.onrender.com/v2/onepice/coderx/onepice/search?name=Monkey.D.Luffy" }
 ];
 
 let apiStatus = {};
