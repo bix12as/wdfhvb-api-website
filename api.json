@@ -14,20 +14,15 @@
   "api_profile": "https://api.siputzx.my.id/api/canvas/profile",
 
   "3":"CHAT BOT",
-  "api_chatbot": "https://apis.davidcyriltech.my.id/ai/chatbot",
-  "api_blackbox": "https://apis.davidcyriltech.my.id/blackbox",
-  "api_ilama3": "https://apis.davidcyriltech.my.id/ai/llama3",
+  "api_chatbot": "https://api.siputzx.my.id/api/ai/llama",
 
   "4":"DOWNLOADS",
-  "api_ytsearch": "https://api.agatz.xyz/api/ytsearch",
-  "api_ytmp3": "https://apis.davidcyriltech.my.id/download/ytmp3",
   "api_ytmp3v2": "https://ochinpo-helper.hf.space/yt",
-  "api_ytmp4": "https://apis.davidcyriltech.my.id/download/ytmp4",
-  "api_facebook2": "https://apis.davidcyriltech.my.id/facebook2",
-  "api_instagram": "https://apis.davidcyriltech.my.id/instagram",
-  "api_tiktok": "https://api.agatz.xyz/api/tiktok",
-  "api_twitter": "https://apis.davidcyriltech.my.id/twitter",
-  "api_spotifydl": "https://apis.davidcyriltech.my.id/spotifydl",
+  "api_facebook": "https://api.siputzx.my.id/api/d/facebook",
+  "api_instagram": "https://api.agatz.xyz/api/instagram",
+  "api_tiktok": "https://api.siputzx.my.id/api/tiktok/v2",
+  "api_twitter": "https://api.siputzx.my.id/api/d/twitter",
+  "api_spotifydl": "https://api.siputzx.my.id/api/d/spotify",
 
   "5":"FUN",
   "api_truth": "https://apis.davidcyriltech.my.id/truth",
@@ -38,8 +33,6 @@
   "api_wyr": "https://api.popcat.xyz/wyr",
 
   "6":"STALK",
-  "api_tiktokstalk": "https://apis.davidcyriltech.my.id/tiktokStalk",
-  "api_ffstalk": "https://apis.davidcyriltech.my.id/ffstalk",
   "api_github": "https://api.agatz.xyz/api/ghtstalk",
 
   "7":"TOOLS",
