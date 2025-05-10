@@ -66,62 +66,62 @@ app.get('/api/request-count', (req, res) => {
 
 const apiEndpoints = [
   // Ai Image
-  { name: "Flux", url: "https://coderx-api.onrender.com//v1/aiimage/coderx/flux?prompt=test" },
-  { name: "Dreamshaper", url: "https://coderx-api.onrender.com//v1/aiimage/coderx/dreamshaper?prompt=test" },
-  { name: "Stabilityai", url: "https://coderx-api.onrender.com//v1/aiimage/coderx/stabilityai?prompt=test" }, 
-  { name: "Stable Diffusion", url: "https://coderx-api.onrender.com//v1/aiimage/coderx/stablediffusion?prompt=test" }, 
+  { name: "Flux", url: "https://coderx-api.onrender.com/v1/aiimage/coderx/flux?prompt=test" },
+  { name: "Dreamshaper", url: "https://coderx-api.onrender.com/v1/aiimage/coderx/dreamshaper?prompt=test" },
+  { name: "Stabilityai", url: "https://coderx-api.onrender.com/v1/aiimage/coderx/stabilityai?prompt=test" }, 
+  { name: "Stable Diffusion", url: "https://coderx-api.onrender.com/v1/aiimage/coderx/stablediffusion?prompt=test" }, 
 
   // Canvas
-  { name: "ship", url: "https://coderx-api.onrender.com//v1/canvas/coderx/ship?user1=https://i.ibb.co.com/Yc4MVdV/images.jpg&user2=https://i.ibb.co.com/KKYxYQr/download.jpg" },
-  { name: "shipv2", url: "https://coderx-api.onrender.com//v1/canvas/coderx/shipv2?avatar1=https://i.ibb.co.com/Yc4MVdV/images.jpg&avatar2=https://i.ibb.co.com/KKYxYQr/download.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg&heart=https://i.ibb.co/qY2QvNMr/Adobe-Express-file.png&persen=100" },
-  { name: "shipv3", url: "https://coderx-api.onrender.com//v1/canvas/coderx/shipv3?avatar1=https://i.ibb.co.com/Yc4MVdV/images.jpg&avatar2=https://i.ibb.co.com/KKYxYQr/download.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg&heart=https://i.ibb.co/qY2QvNMr/Adobe-Express-file.png&persen=100" },
-  { name: "Welcome", url: "https://coderx-api.onrender.com//v1/canvas/coderx/welcome?avatar=https://i.ibb.co/1s8T3sY/48f7ce63c7aa.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg&description=Welcome%20friend" },
-  { name: "Welcome v2", url: "https://coderx-api.onrender.com//v1/canvas/coderx/welcomev2?username=John&guildName=Anime%20Club&memberCount=150&guildIcon=https://i.ibb.co/G5mJZxs/rin.jpg&avatar=https://i.ibb.co/1s8T3sY/48f7ce63c7aa.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg" },
-  { name: "Good Bye", url: "https://coderx-api.onrender.com//v1/canvas/coderx/goodbye?username=John&guildName=Anime%20Club&memberCount=150&guildIcon=https://i.ibb.co/G5mJZxs/rin.jpg&avatar=https://i.ibb.co/1s8T3sY/48f7ce63c7aa.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg" },
-  { name: "Profile", url: "https://coderx-api.onrender.com//v1/canvas/coderx/profile?backgroundURL=https://i.ibb.co.com/2jMjYXK/IMG-20250103-WA0469.jpg&avatarURL=https://avatars.githubusercontent.com/u/159487561?v=4&rankName=epik&rankId=0&requireExp=0&level=0&name=CODERX&exp=100" },
+  { name: "ship", url: "https://coderx-api.onrender.com/v1/canvas/coderx/ship?user1=https://i.ibb.co.com/Yc4MVdV/images.jpg&user2=https://i.ibb.co.com/KKYxYQr/download.jpg" },
+  { name: "shipv2", url: "https://coderx-api.onrender.com/v1/canvas/coderx/shipv2?avatar1=https://i.ibb.co.com/Yc4MVdV/images.jpg&avatar2=https://i.ibb.co.com/KKYxYQr/download.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg&heart=https://i.ibb.co/qY2QvNMr/Adobe-Express-file.png&persen=100" },
+  { name: "shipv3", url: "https://coderx-api.onrender.com/v1/canvas/coderx/shipv3?avatar1=https://i.ibb.co.com/Yc4MVdV/images.jpg&avatar2=https://i.ibb.co.com/KKYxYQr/download.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg&heart=https://i.ibb.co/qY2QvNMr/Adobe-Express-file.png&persen=100" },
+  { name: "Welcome", url: "https://coderx-api.onrender.com/v1/canvas/coderx/welcome?avatar=https://i.ibb.co/1s8T3sY/48f7ce63c7aa.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg&description=Welcome%20friend" },
+  { name: "Welcome v2", url: "https://coderx-api.onrender.com/v1/canvas/coderx/welcomev2?username=John&guildName=Anime%20Club&memberCount=150&guildIcon=https://i.ibb.co/G5mJZxs/rin.jpg&avatar=https://i.ibb.co/1s8T3sY/48f7ce63c7aa.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg" },
+  { name: "Good Bye", url: "https://coderx-api.onrender.com/v1/canvas/coderx/goodbye?username=John&guildName=Anime%20Club&memberCount=150&guildIcon=https://i.ibb.co/G5mJZxs/rin.jpg&avatar=https://i.ibb.co/1s8T3sY/48f7ce63c7aa.jpg&background=https://i.ibb.co/4YBNyvP/images-76.jpg" },
+  { name: "Profile", url: "https://coderx-api.onrender.com/v1/canvas/coderx/profile?backgroundURL=https://i.ibb.co.com/2jMjYXK/IMG-20250103-WA0469.jpg&avatarURL=https://avatars.githubusercontent.com/u/159487561?v=4&rankName=epik&rankId=0&requireExp=0&level=0&name=CODERX&exp=100" },
   
   // Chatbot
-  { name: "Chatbot A", url: "https://coderx-api.onrender.com//v1/chatbot/coderx/chatbot?query=test" },
+  { name: "Chatbot A", url: "https://coderx-api.onrender.com/v1/chatbot/coderx/chatbot?query=test" },
 
   // Downloads
-  { name: "YouTube MP3v2", url: "https://coderx-api.onrender.com//v1/downloaders/coderx/download/ytmp3v2?query=hello" },
-  { name: "Facebook Downloader", url: "https://coderx-api.onrender.com//v1/downloaders/coderx/download/facebook?url=https://www.facebook.com/share/v/15fNp5gHK4/" },
-  { name: "Instagram Downloader", url: "https://coderx-api.onrender.com//v1/downloaders/coderx/download/instagram?url=https://www.instagram.com/reel/DD6q97IuzxD/" },
-  { name: "TikTok Downloader", url: "https://coderx-api.onrender.com//v1/downloaders/coderx/download/tiktok?url=https://vm.tiktok.com/ZMkMuEmmd" },
-  { name: "Twitter Downloader", url: "https://coderx-api.onrender.com//v1/downloaders/coderx/download/twitter?url=https://x.com/elonmusk/status/1870901510319833540" },
-  { name: "Spotify Downloader", url: "https://coderx-api.onrender.com//v1/downloaders/coderx/download/spotifydl?url=https://open.spotify.com/track/285pBltuF7vW8TeWk8hdRR" },
+  { name: "YouTube MP3v2", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/ytmp3v2?query=hello" },
+  { name: "Facebook Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/facebook?url=https://www.facebook.com/share/v/15fNp5gHK4/" },
+  { name: "Instagram Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/instagram?url=https://www.instagram.com/reel/DD6q97IuzxD/" },
+  { name: "TikTok Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/tiktok?url=https://vm.tiktok.com/ZMkMuEmmd" },
+  { name: "Twitter Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/twitter?url=https://x.com/elonmusk/status/1870901510319833540" },
+  { name: "Spotify Downloader", url: "https://coderx-api.onrender.com/v1/downloaders/coderx/download/spotifydl?url=https://open.spotify.com/track/285pBltuF7vW8TeWk8hdRR" },
 
   // Tools
-  { name: "Lyrics", url: "https://coderx-api.onrender.com//v1/tools/coderx/lyrics?song=never+gonna+give+you+up" },
-  { name: "Bible Reference", url: "https://coderx-api.onrender.com//v1/tools/coderx/bible?reference=john+3:16" },
-  { name: "IMDb", url: "https://coderx-api.onrender.com//v1/tools/coderx/imdb?q=iron+man" },
-  { name: "Voice AI", url: "https://coderx-api.onrender.com//v1/tools/coderx/voiceai?text=iron+man&model=optimus_prime" },
-  { name: "Couple PP", url: "https://coderx-api.onrender.com//v1/tools/coderx/couplepp" },
-  { name: "Meme Generator", url: "https://coderx-api.onrender.com//v1/tools/coderx/meme" },
-  { name: "Emoji Mix", url: "https://coderx-api.onrender.com//v1/tools/coderx/emojimix?emoji=😎&emoji2=😂" },
-  { name: "NSFW Check", url: "https://coderx-api.onrender.com//v1/tools/coderx/nsfwcheck?url=https://i.pinimg.com/474x/0a/c6/6f/0ac66f6cf7a4f74f9e435037dea7492e.jpg" },
-  { name: "Google Image", url: "https://coderx-api.onrender.com//v1/tools/coderx/gimage?query=car" },
+  { name: "Lyrics", url: "https://coderx-api.onrender.com/v1/tools/coderx/lyrics?song=never+gonna+give+you+up" },
+  { name: "Bible Reference", url: "https://coderx-api.onrender.com/v1/tools/coderx/bible?reference=john+3:16" },
+  { name: "IMDb", url: "https://coderx-api.onrender.com/v1/tools/coderx/imdb?q=iron+man" },
+  { name: "Voice AI", url: "https://coderx-api.onrender.com/v1/tools/coderx/voiceai?text=iron+man&model=optimus_prime" },
+  { name: "Couple PP", url: "https://coderx-api.onrender.com/v1/tools/coderx/couplepp" },
+  { name: "Meme Generator", url: "https://coderx-api.onrender.com/v1/tools/coderx/meme" },
+  { name: "Emoji Mix", url: "https://coderx-api.onrender.com/v1/tools/coderx/emojimix?emoji=😎&emoji2=😂" },
+  { name: "NSFW Check", url: "https://coderx-api.onrender.com/v1/tools/coderx/nsfwcheck?url=https://i.pinimg.com/474x/0a/c6/6f/0ac66f6cf7a4f74f9e435037dea7492e.jpg" },
+  { name: "Google Image", url: "https://coderx-api.onrender.com/v1/tools/coderx/gimage?query=car" },
 
   // Fun
-  { name: "Truth", url: "https://coderx-api.onrender.com//v1/fun/coderx/truth" },
-  { name: "Dare", url: "https://coderx-api.onrender.com//v1/fun/coderx/dare" },
-  { name: "Pickup Line", url: "https://coderx-api.onrender.com//v1/fun/coderx/pickupline" },
-  { name: "Fact", url: "https://coderx-api.onrender.com//v1/fun/coderx/fact" },
-  { name: "Joke", url: "https://coderx-api.onrender.com//v1/fun/coderx/joke" },
-  { name: "Would You Rather", url: "https://coderx-api.onrender.com//v1/fun/coderx/wyr" },
+  { name: "Truth", url: "https://coderx-api.onrender.com/v1/fun/coderx/truth" },
+  { name: "Dare", url: "https://coderx-api.onrender.com/v1/fun/coderx/dare" },
+  { name: "Pickup Line", url: "https://coderx-api.onrender.com/v1/fun/coderx/pickupline" },
+  { name: "Fact", url: "https://coderx-api.onrender.com/v1/fun/coderx/fact" },
+  { name: "Joke", url: "https://coderx-api.onrender.com/v1/fun/coderx/joke" },
+  { name: "Would You Rather", url: "https://coderx-api.onrender.com/v1/fun/coderx/wyr" },
 
   // Stalk
-  { name: "GitHub Stalker", url: "https://coderx-api.onrender.com//v1/stalk/coderx/github?name=coderxsa" },
+  { name: "GitHub Stalker", url: "https://coderx-api.onrender.com/v1/stalk/coderx/github?name=coderxsa" },
 
 
   // v2
   // dragonball
-  { name: "DragonBall", url: "https://coderx-api.onrender.com//v2/dragonball/coderx/dragonball" },
-  { name: "Dragonball Search", url: "https://coderx-api.onrender.com//v2/dragonball/coderx/dragonball/search?name=Piccolo" },
-  { name: "One pice", url: "https://coderx-api.onrender.com//v2/data/coderx/one-pice" },
-  { name: "One pice search", url: "https://coderx-api.onrender.com//v2/onepice/coderx/onepice/search?name=Monkey.D.Luffy" },
-  { name: "Vip Game", url: "https://coderx-api.onrender.com//v2/vipgame/coderx/vip" },
-  { name: "Vip Game search", url: "https://coderx-api.onrender.com//v2/vipgame/coderx/search?id=1" }
+  { name: "DragonBall", url: "https://coderx-api.onrender.com/v2/dragonball/coderx/dragonball" },
+  { name: "Dragonball Search", url: "https://coderx-api.onrender.com/v2/dragonball/coderx/dragonball/search?name=Piccolo" },
+  { name: "One pice", url: "https://coderx-api.onrender.com/v2/data/coderx/one-pice" },
+  { name: "One pice search", url: "https://coderx-api.onrender.com/v2/onepice/coderx/onepice/search?name=Monkey.D.Luffy" },
+  { name: "Vip Game", url: "https://coderx-api.onrender.com/v2/vipgame/coderx/vip" },
+  { name: "Vip Game search", url: "https://coderx-api.onrender.com/v2/vipgame/coderx/search?id=1" }
 ];
 
 
