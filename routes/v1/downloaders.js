@@ -107,40 +107,43 @@ router.get('/coderx/download/facebook', async (req, res) => {
 router.get('/coderx/download/instagram', async (req, res) => {
   try {
     const url = req.query.url;
-    if (!url) {
-      return res.status(400).json({ error: 'Missing Instagram URL in query.' });
-    }
 
     const response = await axios.get(apiUrls.api_instagram, {
       params: { url }
     });
 
-    const data = response.data?.data || {};
-    const videoLinks = Array.isArray(data.videoLinks) ? data.videoLinks : [];
+    const rawData = response.data?.data || {};
 
-    const formattedLinks = videoLinks.map(link => ({
-      quality: link.quality?.replace(/\s+/g, ' ').replace(/[()]/g, '').trim(),
-      url: link.url
-    }));
+    console.log('Raw API response data:', rawData); // Debug
+
+    const videoLinks = Array.isArray(rawData.videoLinks) ? rawData.videoLinks : [];
+    const title = rawData.title?.trim() || '';
+    const thumbnail = rawData.thumbnail || null;
+
+    const downloadLinks = videoLinks.map(link => {
+      return {
+        quality: link.quality?.replace(/\s+/g, ' ').trim() || 'Unknown',
+        url: link.url
+      };
+    });
 
     const modifiedResponse = {
       creator: "CODERX",
-      status: response.data.status || 200,
+      status: response.data.status,
       success: true,
       type: "instagram",
-      title: data.title || "",
-      thumbnail: data.thumbnail || null,
-      downloadLinks: formattedLinks
+      title,
+      thumbnail,
+      downloadLinks
     };
 
     res.json(modifiedResponse);
   } catch (error) {
-    console.error("Instagram Download Error:", error.message);
-    res.status(500).json({
-      error: 'Contact: +27 71 731 1486 : Server Down'
-    });
+    //console.error('Error fetching Instagram data:', error.message); // Debug
+    res.status(500).json({ error: 'Contact: +27 71 731 1486 : Server Down' });
   }
 });
+
 
 
 
