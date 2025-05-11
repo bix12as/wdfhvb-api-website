@@ -112,9 +112,10 @@ router.get('/coderx/download/instagram', async (req, res) => {
       params: { url }
     });
 
-    const videoLinks = response.data.data?.videoLinks || [];
-    const thumbnail = response.data.data?.thumbnail || null;
-    const title = response.data.data?.title || "";
+    const data = response.data.data || {};
+    const videoLinks = Array.isArray(data.videoLinks) ? data.videoLinks : [];
+    const thumbnail = data.thumbnail || null;
+    const title = data.title || "";
 
     const modifiedResponse = {
       creator: "CODERX",
@@ -124,7 +125,7 @@ router.get('/coderx/download/instagram', async (req, res) => {
       title,
       thumbnail,
       downloadLinks: videoLinks.map(link => ({
-        quality: link.quality?.trim(),
+        quality: link.quality?.replace(/\s+/g, ' ').trim(),
         url: link.url
       }))
     };
@@ -134,6 +135,7 @@ router.get('/coderx/download/instagram', async (req, res) => {
     res.status(500).json({ error: 'Contact: +27 71 731 1486 : Server Down' });
   }
 });
+
 
 
 router.get('/coderx/download/tiktok', async (req, res) => {
